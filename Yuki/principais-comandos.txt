@@ -1,0 +1,19 @@
+1 caso não tenha o repositório
+echo "# Projeto-Integrador" >> README.md (opcional, cria um arquivo README.md)
+git init (transforma a pasta em repositório)
+git add README.md (add adiciona o arquivo que você alterou para uma stage)
+git commit -m "first commit" (passa do stage para o repositório criado)
+git branch -M main (cria a sua branch)
+git remote add origin https://github.com/Yuki-iMiura/Projeto-Integrador.git (vincula seu repositório em um repositório online)
+git push -u origin main (empurra os arquivos do diretório local para nuvem)
+
+2 sempre que for upar um arquivo
+ git add //pega do diretório e põe no stage
+ git commit // pega do stage e põe no repositório
+ git push // empurra tudo pro repositório online
+
+3 puxar pra su máquina um repositório online
+git clone + "url" // tem que pegar a url do repositório no site do GitHub
+
+4 empurrar do seu repositorio online para sua maquina
+git push //SeuDiretório
