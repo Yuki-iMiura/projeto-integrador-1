@@ -16,4 +16,4 @@ git push -u origin main (empurra os arquivos do diretório local para nuvem)
 git clone + "url" // tem que pegar a url do repositório no site do GitHub
 
 4 empurrar do seu repositorio online para sua maquina
-git push //SeuDiretório
+git pull //SeuDiretório
